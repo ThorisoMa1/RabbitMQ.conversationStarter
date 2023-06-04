@@ -1,10 +1,5 @@
 ﻿using RabbitMQ.Client;
-using RabbitMQ.conversationStarter.Infustructure;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace RabbitMQ.conversationStarter.Interfaces
 {
@@ -35,11 +30,11 @@ namespace RabbitMQ.conversationStarter.Interfaces
             
             IModel channel = conn.CreateModel();
 
-            string exchangeName = "demo-exchange";
+            string exchangeName = "conversation-exchange";
 
-            string routingKey = "demo-routing-key";
+            string routingKey = "conversation-routing-key";
 
-            string queueName = "DemoQueue";
+            string queueName = "conversationQueue";
 
             channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
             channel.QueueDeclare(queueName, false, false, false, null);
