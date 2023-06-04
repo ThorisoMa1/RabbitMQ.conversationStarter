@@ -11,4 +11,11 @@
     <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="application\" />
+    <Folder Include="domain\" />
+    <Folder Include="Infustructure\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
 </Project>
