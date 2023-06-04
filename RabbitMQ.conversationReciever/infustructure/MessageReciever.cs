@@ -49,9 +49,8 @@ namespace RabbitMQ.conversationReciever.Infustructure
 
                 string recievedMesssage = Encoding.UTF8.GetString(messageBody);
 
-                Console.WriteLine($"Message : ,{recievedMesssage}");
-                Console.WriteLine("press a button to close this application ");
-
+                Console.WriteLine($"Hello {recievedMesssage}, I am your father!");
+              
                 // ackonolages that the message has been recieved
                 channel.BasicAck(args.DeliveryTag,false);
 

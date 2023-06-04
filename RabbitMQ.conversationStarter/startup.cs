@@ -3,11 +3,6 @@ using Microsoft.Extensions.DependencyInjection;
 using RabbitMQ.conversationStarter.application;
 using RabbitMQ.conversationStarter.Infustructure;
 using RabbitMQ.conversationStarter.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RabbitMQ.conversationStarter
 {

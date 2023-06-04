@@ -25,8 +25,19 @@ string message = string.Format("Hello My name is {0}", name);
 
 Console.WriteLine("thank you , sending your message.......");
 
-// send the message 
-messageSendingService.SendMessage(message);
+try
+{
+    // send the message 
+    messageSendingService.SendMessage(message);
+}
+catch (Exception e)
+{
+
+    Console.WriteLine(e);
+
+}
+
+
 
 Console.WriteLine("SENT");
 
