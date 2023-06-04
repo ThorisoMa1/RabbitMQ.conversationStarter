@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using RabbitMQ.conversationStarter.application;
+using RabbitMQ.conversationStarter.Application;
 using RabbitMQ.conversationStarter.Infustructure;
 using RabbitMQ.conversationStarter.Interfaces;
 

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.conversationStarter", "RabbitMQ.conversationStarter\RabbitMQ.conversationStarter.csproj", "{F644D1DB-D5FA-495E-8142-1E4DCF90F98A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.conversationReciever", "RabbitMQ.conversationReciever\RabbitMQ.conversationReciever.csproj", "{CF63F116-3179-4B8C-9B1D-518B958D09B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.conversationReciever", "RabbitMQ.conversationReciever\RabbitMQ.conversationReciever.csproj", "{CF63F116-3179-4B8C-9B1D-518B958D09B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQRabbitTests", "MQRabbitTests\MQRabbitTests.csproj", "{D62907A4-F55F-40EB-97CC-03909E1B9D59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQTests", "RabbitMQTests\RabbitMQTests.csproj", "{CFF4595D-C209-46E6-B303-87ADA0F5C6CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{CF63F116-3179-4B8C-9B1D-518B958D09B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF63F116-3179-4B8C-9B1D-518B958D09B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF63F116-3179-4B8C-9B1D-518B958D09B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D62907A4-F55F-40EB-97CC-03909E1B9D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D62907A4-F55F-40EB-97CC-03909E1B9D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D62907A4-F55F-40EB-97CC-03909E1B9D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D62907A4-F55F-40EB-97CC-03909E1B9D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF4595D-C209-46E6-B303-87ADA0F5C6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF4595D-C209-46E6-B303-87ADA0F5C6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF4595D-C209-46E6-B303-87ADA0F5C6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF4595D-C209-46E6-B303-87ADA0F5C6CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

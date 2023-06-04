@@ -1,7 +1,8 @@
 ﻿using RabbitMQ.Client;
+using RabbitMQ.conversationStarter.Interfaces;
 using System.Text;
 
-namespace RabbitMQ.conversationStarter.Interfaces
+namespace RabbitMQ.conversationStarter.Infustructure
 {
     internal class MessageSender : IMessageSender
     {

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RabbitMQ.conversationStarter.application
+namespace RabbitMQ.conversationStarter.Application
 {
-    internal class MessageSenderService : IMessageSenderService
+    public class MessageSenderService : IMessageSenderService
     {
         private readonly IMessageSender _messageSender;
 
