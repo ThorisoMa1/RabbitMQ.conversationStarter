@@ -15,8 +15,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="application\" />
     <Folder Include="domain\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
